@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build outputs
+dist/
+build/
+out/
+.cache/
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+tmp/
+*.pid
+
+# Mac/Linux
+*.swp
+*.swo
+
+# Frontend specific
+apps/frontend/node_modules/
+apps/frontend/dist/
+apps/frontend/.turbo/
+apps/frontend/.vite/
+
+# Backend specific
+apps/backend/node_modules/
+apps/backend/dist/
+apps/backend/.turbo/
+
+# Shared package
+packages/shared/node_modules/
+packages/shared/dist/
